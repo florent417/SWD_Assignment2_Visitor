@@ -4,9 +4,8 @@ using System.Text;
 
 namespace Toys
 {
-    interface IVisitor
+    class Car : IElement
     {
-        void visit(Actionman actionman);
-        void visit
+
     }
 }
