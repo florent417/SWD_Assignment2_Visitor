@@ -6,7 +6,7 @@ namespace Toys
 {
     interface IVisitor
     {
-        void visit(Actionman actionman);
-        void visit
+        void Visit(Actionman actionman);
+        void Visit(Car car);
     }
 }

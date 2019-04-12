@@ -7,22 +7,14 @@ namespace Toys
     class Actionman : IElement
     {
         public string Theme { get; set; }
-        private double _price;
+        public string Accessories { get; set; }
+        public double Price { get; set; }   
 
-        public Actionman(double price)
+        public Actionman(double price, string theme, string accessories)
         {
-            Theme = "No clothes";
-            _price = price;
-        }
-
-        public void PrintTheme()
-        {
-            Console.WriteLine("The current theme is: " + Theme);
-        }
-
-        public double GetPrice()
-        {
-            return _price;
+            Theme = theme;
+            Accessories = accessories;
+            Price = price;
         }
 
         public void Accept(IVisitor visitor)
