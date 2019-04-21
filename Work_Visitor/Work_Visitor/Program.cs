@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Workers
+namespace Work_Visitor
 {
     class Program
     {
@@ -29,8 +29,6 @@ namespace Workers
                 nightWorker.Accept(new Raise());
                 Console.WriteLine();
             }
-
-            Console.WriteLine("Hello World!");
         }
     }
 }

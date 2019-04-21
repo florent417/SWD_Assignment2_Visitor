@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Workers
+namespace Work_Visitor
 {
-    class NighttimeWorker: IElement
+    class DaytimeWorker: IElement
     {
         public string Name { get; set; }
         public double HourlyPay { get; set; }
 
-        public NighttimeWorker(string name, double pay)
+        public DaytimeWorker(string name, double pay)
         {
             Name = name;
             HourlyPay = pay;

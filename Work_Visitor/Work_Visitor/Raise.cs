@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Workers
+namespace Work_Visitor
 {
     class Raise: IVisitor
     {
