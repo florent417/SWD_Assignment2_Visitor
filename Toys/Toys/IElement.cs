@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Toys
+namespace Workers
 {
     interface IElement
     {

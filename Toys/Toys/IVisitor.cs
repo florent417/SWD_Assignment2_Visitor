@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Toys
+namespace Workers
 {
     interface IVisitor
     {
-        void Visit(Actionman actionman);
-        void Visit(Car car);
+        void Visit(DaytimeWorker daytimeWorker);
+        void Visit(NighttimeWorker nighttimeWorker);
     }
 }
